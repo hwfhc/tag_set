@@ -1,4 +1,4 @@
-var demo =new Group([2,5,1]);
+/*var demo =new Group([2,5,1]);
 console.log(demo);
 console.log(demo.OutPut());
 
@@ -10,4 +10,5 @@ demo.Delete(1);
 console.log(demo);
 console.log(demo.OutPut());
 
-console.log(demo);
+console.log(demo);*/
+
