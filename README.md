@@ -1,34 +1,41 @@
-##Group
-所有待处理标签  
+##Set
+创建一个集合
 
 ####属性:   
-+ tags[]:  
-标签集合中所有的标签  
++ value[]:  
+存储集合中所有元素  
 
 ####方法:  
-+ constructor(tags[]):传入数组，初始化标签集合
++ constructor(ELEMENTS[]):传入数组，初始化集合元素
   + 参数：
-    + tags[]：包含所有初始拥有标签的数组
-  + 返回值：新的TagGroup
-
-
-+ GetTags():将所有标签以一个数组形式输出  
-  + 参数：null
-  + 返回值：包含所有标签的数组
-
-
-+ AddTag(tag):增添一个新的标签  
-  + 参数：
-    + tag：要添加的标签
+    + ELEMENTS[]：包含所有初始拥有元素的数组
   + 返回值：null
 
 
-+ DeleteTag(tag):删除标签集合中的参数标签
++ OutPut():将所有元素以一个数组形式输出  
+  + 参数：null
+  + 返回值：包含所有元素的数组
+
+
++ Add(element):增添一个新的元素
   + 参数：
-    + tag：要删除的标签
+    + element：要添加的元素
+  + 返回值：null
+
+
++ Delete(element):删除集合中某个元素
+  + 参数：
+    + tag：要删除的元素
   + 返回值：null  
 
 
-+ isIncludeTagGroup(tag_group):判断标签集合是否完全包含另一个标签集合
-  + 参数：另一个TagGroup
-  + 返回值：是否包含完全包含另一标签集合的布尔值
++ isContain(SET):判断集合是否包含另一个集合
+  + 参数：
+    + SET：另一个集合 
+  + 返回值：是包含另一集合的布尔值
+
+
++ isOwn(element)：判断集合是否包含元素
+  + 参数：
+    + element：某个元素
+  + 返回值：是否拥有某一元素的布尔值
