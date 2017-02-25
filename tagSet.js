@@ -1,10 +1,7 @@
-exports.Create = function(ELEMENTS){
-    var item = new Set(ELEMENTS);
-    return item;
-}
+module.exports.Create = tagSet;
 
 
-function Set(ELEMENTS){
+function tagSet(ELEMENTS){
     /*
      *效果说明:
      *初始化集合
@@ -12,7 +9,7 @@ function Set(ELEMENTS){
     this.value = ELEMENTS.concat();
 }
 
-Set.prototype.OutPut = function(){
+tagSet.prototype.OutPut = function(){
     /*
      *效果说明：
      *将所有标签以数组形式输出
@@ -20,7 +17,7 @@ Set.prototype.OutPut = function(){
     return this.value.concat();
 }
 
-Set.prototype.Add = function(element){
+tagSet.prototype.Add = function(element){
     /*
      *效果说明：
      *添加新的元素
@@ -28,7 +25,7 @@ Set.prototype.Add = function(element){
     this.value.push(element);
 }
 
-Set.prototype.Delete = function(element){
+tagSet.prototype.Delete = function(element){
     /*
      *效果说明:
      *删除元素
@@ -38,7 +35,7 @@ Set.prototype.Delete = function(element){
     });
 }
 
-Set.prototype.isContain = function(SET){
+tagSet.prototype.isContain = function(SET){
     /*
      *效果说明:
      *判断集合是否包含另一个集合
@@ -52,7 +49,7 @@ Set.prototype.isContain = function(SET){
         });
     });
 }
-Set.prototype.isOwn = function(element){
+tagSet.prototype.isOwn = function(element){
     /*
      *效果说明:
      *判断元素是否属于集合
