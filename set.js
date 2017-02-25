@@ -1,3 +1,9 @@
+exports.Create = function(ELEMENTS){
+    var item = new Set(ELEMENTS);
+    return item;
+}
+
+
 function Set(ELEMENTS){
     /*
      *效果说明:
