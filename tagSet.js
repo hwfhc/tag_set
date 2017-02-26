@@ -1,4 +1,4 @@
-module.exports.Create = tagSet;
+module.exports = tagSet;
 
 
 function tagSet(ELEMENTS){
