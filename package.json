@@ -1,7 +1,7 @@
 {
   "name": "tag_set",
-  "version": "1.0.3",
-  "description": "创建一个标签集合",
+  "version": "1.0.4",
+  "description": "create a tag set",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/firewaterge/tag_set.git"
   },
-  "author": "",
+  "author": "firewaterge",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/firewaterge/tag_set/issues"
